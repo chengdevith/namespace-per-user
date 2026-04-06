@@ -1,6 +1,23 @@
+#Grafana vaules file
 grafana:
+  # adminPassword: "qwer"
+  # assertNoLeakedSecrets: false
+  # grafana.ini:
+  #   security:
+  #     admin_user: admin
+  #     admin_password: qwer
+  #     disable_initial_admin_creation: false
+  #   auth.basic:
+  #     enabled: true
   sidecar:
     dashboards:
       provider:
         folder: admin
         allowUiUpdates: false
+  # persistence:
+  #   enabled: true
+  #   storageClassName: longhorn
+  #   size: 5Gi
+  #   accessModes:
+  #     - ReadWriteOnce
+  #   existingClaim: "prometheus-grafana"

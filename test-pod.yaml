@@ -13,8 +13,8 @@ spec:
         - |
           i=0
           while true; do
-            echo "$(date) hello from ns-devith line $i"
-            echo "$(date) hello from ns-devith line $i" >> /data/file.txt
+            echo "$(date) thunh nas  from ns-devith line $i"
+            echo "$(date) thunh nas from ns-devith line $i" >> /data/file.txt
             i=$((i+1))
             sleep 2
           done
