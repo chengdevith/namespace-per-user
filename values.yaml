@@ -1,0 +1,6 @@
+grafana:
+  sidecar:
+    dashboards:
+      provider:
+        folder: admin
+        allowUiUpdates: false
